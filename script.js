@@ -38,6 +38,7 @@ function getMyData (dataurl) {
 };
 
 $(".getTale").on('click',function() {
+	tale = "";
 	getMyData(dataurl);
 	
 });
